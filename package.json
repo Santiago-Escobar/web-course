@@ -1,0 +1,26 @@
+{
+  "name": "web-course",
+  "version": "1.0.0",
+  "description": "YelCamp",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santiago-Escobar/web-course.git"
+  },
+  "author": "Santiago Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santiago-Escobar/web-course/issues"
+  },
+  "homepage": "https://github.com/Santiago-Escobar/web-course#readme"
+}
