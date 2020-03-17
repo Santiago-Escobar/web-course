@@ -25,7 +25,7 @@
                     </li>
                     <% } else{ %>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#"> Welcome <%= currentUser.username %></a>
+                        <a class="nav-link" href="#"> Welcome <%= currentUser.username %></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/logout">Logout</a>
@@ -35,3 +35,16 @@
             </div>
         </div>
     </nav>
+
+    <div class="container mt-2">
+        <% if(error && error.length > 0){ %>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
+        <% } %>
+        <% if(success && success.length > 0){ %>
+        <div class="alert alert-success" role="alert">
+            <%= success %>
+        </div>
+        <% } %>
+    </div>
